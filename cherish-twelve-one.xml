@@ -9,7 +9,11 @@
   
   <remote  name="mi-msm8937"
            fetch="https://github.com/mi-msm8937" />
-  
+ 
+<!-- Extras -->
+  <remove-project name="android_device_qcom_sepolicy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="EvilAnsh" revision="a12/rom/cherish" />
+
 <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="EvilAnsh" revision="a12/rom/cherish"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
