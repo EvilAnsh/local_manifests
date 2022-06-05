@@ -3,9 +3,13 @@
   <remote  name="mi-thorium"
            fetch="https://github.com/Mi-Thorium"
            revision="a12/master" />
-  <remote name="EvilAnsh"
-          fetch="https://github.com/EvilAnsh" />
-
+ 
+  <remote  name="EvilAnsh"
+           fetch="https://github.com/EvilAnsh" />
+  
+  <remote  name="mi-msm8937"
+           fetch="https://github.com/mi-msm8937" />
+  
 <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="EvilAnsh" revision="a12/rom/cherish"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
