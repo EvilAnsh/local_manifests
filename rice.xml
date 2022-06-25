@@ -10,10 +10,17 @@
   <remote  name="mi-msm8937"
            fetch="https://github.com/mi-msm8937" />
  
+  <remote  name="mi-sdm439"
+           fetch="https://github.com/mi-sdm439" />
+
 <!-- Extras -->
+  <project path="ih8sn" name="ih8sn" remote="mi-msm8937" revision="master"/>
   <remove-project name="android_device_qcom_sepolicy" />
   <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="EvilAnsh" revision="lineage" />
-       
+  <remove-project name="LineageOS/android_hardware_qcom_wlan"/>
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="mi-sdm439" revision="lineage-19.1-caf"/> 
+  <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" revision="lineage-18.1"/>
+
 <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="EvilAnsh" revision="a12/master"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
