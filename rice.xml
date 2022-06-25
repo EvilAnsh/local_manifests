@@ -15,7 +15,7 @@
 
 <!-- Extras -->
   <project path="ih8sn" name="ih8sn" remote="mi-msm8937" revision="master"/>
-  <remove-project name="android_device_qcom_sepolicy" />
+  <remove-project name="LineageOS/android_device_qcom_sepolicy" />
   <project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="EvilAnsh" revision="lineage" />
   <remove-project name="LineageOS/android_hardware_qcom_wlan"/>
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="mi-sdm439" revision="lineage-19.1-caf"/> 
