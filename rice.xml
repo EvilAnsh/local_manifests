@@ -4,8 +4,8 @@
            fetch="https://github.com/Mi-Thorium"
            revision="a12/master" />
  
-  <remote  name="riceDroid"
-           fetch="https://github.com/riceDroid-Devices" />
+  <remote  name="EvilAnsh"
+           fetch="https://github.com/EvilAnsh" />
   
   <remote  name="mi-msm8937"
            fetch="https://github.com/mi-msm8937" />
@@ -20,14 +20,14 @@
   <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" revision="lineage-18.1"/>
   
 <!-- Common -->
-  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="riceDroid" revision="rice"/>
+  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="EvilAnsh" revision="a13/staging"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
 
  <!-- Kernel for Mi8937 & Tiare -->
   <project path="kernel/xiaomi/msm8937" name="android_kernel_xiaomi_msm8937" remote="mi-msm8937" revision="a12/master"/>
 
  <!-- Mi8937 -->
-  <project path="device/xiaomi/Mi8937"        name="android_device_xiaomi_Mi8937"        groups="device" remote="riceDroid" revision="rice"/>
+  <project path="device/xiaomi/Mi8937"        name="android_device_xiaomi_Mi8937"        groups="device" remote="EvilAnsh" revision="rice-T"/>
   <project path="vendor/xiaomi/Mi8937"        name="proprietary_vendor_xiaomi_Mi8937"    groups="device" remote="mi-thorium" revision="a11/master"/>
   <project path="vendor/xiaomi/Mi8937-2"      name="proprietary_vendor_xiaomi_Mi8937-2"  groups="device" remote="mi-thorium" revision="a11/master"/>
   <project path="device/xiaomi/land-camera"   name="android_device_xiaomi_land-camera"   groups="device" remote="mi-thorium"/>
