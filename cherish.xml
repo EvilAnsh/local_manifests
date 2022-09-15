@@ -22,7 +22,9 @@
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="mi-sdm439" revision="lineage-18.1"/>
   <remove-project name="android_device_qcom_sepolicy" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="LineageOS" revision="lineage-20.0-legacy-um" />
-  
+  <remove-project name="android_vendor_cherish"/>
+  <project path="vendor/cherish" name="android_vendor_cherish" remote="EvilAnsh" revision="tiramisu" />
+
  <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="EvilAnsh" revision="a13/staging"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
